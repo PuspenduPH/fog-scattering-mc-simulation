@@ -117,9 +117,15 @@ $$n(r) = a r^2 \exp(-b r)$$
 Integrating individual single-droplet cross sections across the polydisperse distribution yields the bulk propagation parameters:
 
 $$
-\langle \mu_e \rangle = \frac{\pi \int_0^\infty r^2 Q_e(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
-\langle \mu_s \rangle = \frac{\pi \int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
-\langle \omega_0 \rangle = \frac{\langle \mu_s \rangle}{\langle \mu_e \rangle} \\[0.5cm]
+\langle \mu_e \rangle = \frac{\pi \int_0^\infty r^2 Q_e(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} 
+$$
+$$
+\langle \mu_s \rangle = \frac{\pi \int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} 
+$$
+$$
+\langle \omega_0 \rangle = \frac{\langle \mu_s \rangle}{\langle \mu_e \rangle} 
+$$
+$$
 \langle g \rangle = \frac{\int_0^\infty r^2 Q_s(r, \lambda, m) g(r, \lambda, m) n(r)\,dr}{\int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}
 $$
 
