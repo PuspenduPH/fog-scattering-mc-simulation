@@ -129,7 +129,8 @@ $$
 \langle g \rangle = \frac{\int_0^\infty r^2 Q_s(r, \lambda, m) g(r, \lambda, m) n(r)\,dr}{\int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}
 $$
 
-* **Unit Conventions & Scaling:** Integrating with $r$ in $\mu\text{m}$ and $n(r)$ in $\text{m}^{-3}\mu\text{m}^{-1}$ introduces an exact $10^{-12}$ scaling multiplier to produce extinction coefficients $\mu_e$ in $\text{m}^{-1}$ (or $\text{km}^{-1}$ when multiplied by $1000$).
+* **Unit Conventions & Scaling:** 
+  Integrating with $r$ in $\mu\text{m}$ and $n(r)$ in $\text{m}^{-3}\mu\text{m}^{-1}$ introduces an exact $10^{-12}$ scaling multiplier to produce extinction coefficients $\mu_e$ in $\text{m}^{-1}$ (or $\text{km}^{-1}$ when multiplied by $1000$).
 
 ---
 
