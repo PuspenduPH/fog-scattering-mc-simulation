@@ -109,7 +109,7 @@ $$n(r) = a r^2 \exp(-b r)$$
 * **Radiation Fog:**
   $$n_{\text{rad}}(r) = 5.400 \times 10^7 W^{-1.104} r^2 \exp\left(-0.5477 W^{-0.351} r\right)$$
 
-*(where $r$ is the droplet radius in $\mu\text{m}$ and $W$ is the liquid water content in $\text{g/m}^3$ derived from visibility $V$).*
+>(where $r$ is the droplet radius in $\mu\text{m}$ and $W$ is the liquid water content in $\text{g/m}^3$ derived from visibility $V$).
 
 ---
 
