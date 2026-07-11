@@ -1,0 +1,27 @@
+{
+    "sweep_type": "backscatter_wavelength",
+    "param_values": [
+        0.86,
+        0.91,
+        1.06,
+        10.6
+    ],
+    "fixed_params": {
+        "visibility_km": 0.6,
+        "z_max": 0.5,
+        "num_photons": 500000,
+        "fog_models": {
+            "Radiation Fog": "function: n_rad",
+            "Advection Fog": "function: n_adv"
+        },
+        "r_grid": "ndarray(shape=(1000,), dtype=float64)",
+        "ref_indices": {
+            "0.86": "1.329 + -2.93e-07j",
+            "0.91": "1.323 + -5.7e-07j",
+            "1.06": "1.326 + -2.89e-06j",
+            "1.315": "1.316 + -1.639e-05j",
+            "10.6": "1.178 + -0.071j"
+        },
+        "description": "Figure 7 Backscatter Wavelength Sweep"
+    }
+}

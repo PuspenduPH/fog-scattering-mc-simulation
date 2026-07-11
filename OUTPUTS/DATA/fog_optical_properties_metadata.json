@@ -1,0 +1,19 @@
+{
+    "wavelengths_um": [
+        0.86,
+        0.91,
+        1.06,
+        1.315,
+        10.6
+    ],
+    "fog_models": [
+        "Radiation Fog",
+        "Advection Fog"
+    ],
+    "units": {
+        "mu_e": "km^-1",
+        "visibility": "km",
+        "wavelength": "um"
+    },
+    "description": "Mie bulk optical properties for advection and radiation fog."
+}

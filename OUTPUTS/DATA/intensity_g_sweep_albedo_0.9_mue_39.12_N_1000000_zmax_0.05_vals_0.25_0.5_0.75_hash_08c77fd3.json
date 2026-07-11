@@ -1,0 +1,15 @@
+{
+    "sweep_type": "g",
+    "param_values": [
+        0.25,
+        0.5,
+        0.75
+    ],
+    "fixed_params": {
+        "albedo": 0.9,
+        "mu_e": 39.12,
+        "z_max": 0.05,
+        "num_photons": 1000000,
+        "description": "Figure 6 Asymmetry Factor Sweep"
+    }
+}
