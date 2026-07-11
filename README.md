@@ -117,12 +117,10 @@ $$n(r) = a r^2 \exp(-b r)$$
 Integrating individual single-droplet cross sections across the polydisperse distribution yields the bulk propagation parameters:
 
 $$
-\begin{aligned}
-\langle \mu_e \rangle &= \frac{\pi \int_0^\infty r^2 Q_e(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
-\langle \mu_s \rangle &= \frac{\pi \int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
-\langle \omega_0 \rangle &= \frac{\langle \mu_s \rangle}{\langle \mu_e \rangle} \\[0.5cm]
-\langle g \rangle &= \frac{\int_0^\infty r^2 Q_s(r, \lambda, m) g(r, \lambda, m) n(r)\,dr}{\int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}
-\end{aligned}
+\langle \mu_e \rangle = \frac{\pi \int_0^\infty r^2 Q_e(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
+\langle \mu_s \rangle = \frac{\pi \int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}{\int_0^\infty n(r)\,dr} \\[0.5cm]
+\langle \omega_0 \rangle = \frac{\langle \mu_s \rangle}{\langle \mu_e \rangle} \\[0.5cm]
+\langle g \rangle = \frac{\int_0^\infty r^2 Q_s(r, \lambda, m) g(r, \lambda, m) n(r)\,dr}{\int_0^\infty r^2 Q_s(r, \lambda, m) n(r)\,dr}
 $$
 
 * **Unit Conventions & Scaling:** Integrating with $r$ in $\mu\text{m}$ and $n(r)$ in $\text{m}^{-3}\mu\text{m}^{-1}$ introduces an exact $10^{-12}$ scaling multiplier to produce extinction coefficients $\mu_e$ in $\text{m}^{-1}$ (or $\text{km}^{-1}$ when multiplied by $1000$).
