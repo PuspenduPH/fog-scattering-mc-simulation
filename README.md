@@ -63,7 +63,6 @@ This repository provides two robust, interoperable core classes:
 ```text
 fog-scattering-mc-simulation/
 ├── fog_scattering_final.ipynb       # Main comprehensive notebook with all classes, derivations, & plots
-├── content.md                       # Presentation slide outlines and physical narrative summaries
 ├── requirements.txt                 # Python dependency list
 ├── OUTPUTS/                         # All simulation output data, plots, and animations
 │   ├── PLOTS/                       # High-resolution PNG figures (Figures 1-7, 2D/3D trajectories)
